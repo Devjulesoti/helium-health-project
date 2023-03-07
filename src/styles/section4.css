@@ -1,0 +1,43 @@
+.section4 img {
+  width: 50%;
+}
+.section4 {
+  background-color: #f2f1f8;
+  margin: 30px;
+}
+.section6 {
+  background-color: white;
+  width: 100%;
+}
+.section4 p {
+  color: red;
+}
+.word {
+  letter-spacing: 10px;
+}
+
+.partners{
+  font-weight: 600;
+  font-size: 45px;
+}
+
+@media (max-width: 600px) {
+  .each-one {
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .each-right {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid grey;
+    border-radius: 8px;
+  }
+  .section4 img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}
