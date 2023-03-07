@@ -9,7 +9,7 @@ import Footer from "./Components/Footer";
 
 function App() {
 
-  
+
 
 
 
@@ -23,12 +23,12 @@ function App() {
       </Routes>
       <Footer/>
 
-      
-      
+
+
       </BrowserRouter>
 
-   
-    
+
+
     </div>
   );
 }
