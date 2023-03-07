@@ -1,55 +1,291 @@
-import React from 'react'
-import frame1 from '../images/Frame1.png'
-import frame2 from '../images/Frame2.png'
-import frame3 from '../images/Frame3.png'
-import frame4 from '../images/Frame4.png'
-import frame5 from '../images/Frame5.png'
-import frame6 from '../images/Frame6.png'
-import frame7 from '../images/Frame7.png'
-import frame8 from '../images/Frame8.png'
-import frame9 from '../images/Frame9.png'
-import '../Styles/Section3.css'
+import React from "react";
+import icon1 from "../Assets/images/i (1).png";
+import icon2 from "../Assets/images/i (2).png";
+import icon3 from "../Assets/images/i (3).png";
+import icon4 from "../Assets/images/i (4).png";
+import icon5 from "../Assets/images/i (5).png";
+import icon6 from "../Assets/images/i (6).png";
+import icon7 from "../Assets/images/i (7).png";
+import icon8 from "../Assets/images/i (8).png";
+import icon9 from "../Assets/images/i (9).png";
+import icon10 from "../Assets/images/i (10).png";
+import icon11 from "../Assets/images/i (11).png";
+import icon12 from "../Assets/images/i.png";
+import "../styles/section3.css";
+import { isMobile } from "react-device-detect";
 
 const Section3 = () => {
-  return (
-    <div className='section3'>
-        <div className='text-wrap1'>
-            <h5 className='h5'>TRUSTED BY MORE THAN</h5>
-            <h3>300 provider</h3>
-            <br />
-            <h5>AND USED BY OVER</h5>
-            <h3>5,000 health professionals</h3>
-            <br />
-            <h5>IN MANAGING OVER</h5>
-            <h3>165,000 patients monthly</h3>
-        </div>
-        <div>
-            <p>SPONSORS</p>
-         <div className='img-wrap2'>
-            <img src={frame1} alt="" />
-            <img src={frame2} alt="" />
-            <img src={frame3} alt="" />
-            <img src={frame4} alt="" />
-            <img src={frame5} alt="" />
-            <img src={frame6} alt="" />
-            <img src={frame7} alt="" />
-            <img src={frame8} alt="" />
-            <img src={frame9} alt="" />
+
+    const data = [
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Apr 2016",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Dec 2016",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Sep 2017",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "June 2018",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Mar 2019",
+        },
+        {
+          detail1: "Lorem lorem ipsum dolor sit.",
+          detail2: "May 2020",
+        },
+      ];
+      const data1 = [
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Jan 2016",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Aug 2016",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "May 2017",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Jan 2018",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Oct 2018",
+        },
+        {
+          detail1: "Lorem Lorem ipsum dolor sit.",
+          detail2: "May 2019",
+        },
+      ];
+    
+      const data3 = [
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Apr 2016",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Dec 2016",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Sep 2017",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "June 2018",
+        },
+        {
+          detail1: "lorem Lorem ipsum dolor sit.",
+          detail2: "Mar 2019",
+        },
+        {
+          detail1: "Lorem lorem ipsum dolor sit.",
+          detail2: "May 2020",
+        },
+        {
+            detail1: "lorem Lorem ipsum dolor sit.",
+            detail2: "Jan 2016",
+          },
+          {
+            detail1: "lorem Lorem ipsum dolor sit.",
+            detail2: "Aug 2016",
+          },
+          {
+            detail1: "lorem Lorem ipsum dolor sit.",
+            detail2: "May 2017",
+          },
+          {
+            detail1: "lorem Lorem ipsum dolor sit.",
+            detail2: "Jan 2018",
+          },
+          {
+            detail1: "lorem Lorem ipsum dolor sit.",
+            detail2: "Oct 2018",
+          },
+          {
+            detail1: "Lorem Lorem ipsum dolor sit.",
+            detail2: "May 2019",
+          },
+      ];
+     
+
+
+
+    if(isMobile){
+        return(
+            <div>
+            <h2 className="mt-5 text-center ">Our Journey</h2>
+            <div className="container d-flex justify-content-around gap-1 section3">
+          <div className="middle">
+            <div className="each">
+              <img src={icon1} alt="" />
             </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon2} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon3} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon4} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon5} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon6} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon7} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon8} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon9} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon10} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon11} alt="" />
+            </div>
+            <div className="line"></div>
+            <div className="each">
+              <img src={icon12} alt="" />
+            </div>
+          </div>
+          <div className="second">
+          
+          {data3.map((each) => {
+            return (
+              <div className=" ">
+                <p className="date">{each.detail2}</p>
+              </div>
+            );
+          })}
         </div>
+          <div className="third">
+          
+          {data3.map((each) => {
+            return (
+              <div className="">
+                <p className="lorem writeup2">{each.detail1}</p>
+              </div>
+            );
+          })}
+        </div>
+    
+        </div>
+        </div>
+        )
+    }
+      
 
 
 
+ 
+
+  
 
 
-
-
-
-
-
-
+  return (
+    <div className="container d-flex justify-content-center gap-1 section3  ">
+      <div className="left">
+        {data.map((each) => {
+          return (
+            <div className=" each-write1 d-flex gap-3  justify-content-center align-items-center">
+              <p className="lorem">{each.detail1}</p>
+              <p className="date1">{each.detail2}</p>
+            </div>
+          );
+        })}
+      </div>
+      <div className="middle">
+        <div className="each">
+          <img src={icon1} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon2} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon3} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon4} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon5} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon6} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon7} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon8} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon9} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon10} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon11} alt="" />
+        </div>
+        <div className="line"></div>
+        <div className="each">
+          <img src={icon12} alt="" />
+        </div>
+      </div>
+      <div className="right">
+      
+        {data1.map((each) => {
+          return (
+            <div className=" each-write1 d-flex gap-3  justify-content-center align-items-center">
+              <p className="date1">{each.detail2}</p>
+              <p className="lorem">{each.detail1}</p>
+            </div>
+          );
+        })}
+      </div>
+      
     </div>
-  )
-}
+  );
+};
 
-export default Section3
+export default Section3;
