@@ -12,7 +12,7 @@ const Lsection4 = () => {
         <p style={{ color: "#454545" }}>
           Lorem ipsum dolor sit amet consectetur. Feugiat pretium libero
           accumsan congue ullamcorper. Nam massa commodo gravida lectus.
-          Phasellus commodo quis eleifend nulla. Ut egestas sollicitudin at
+          Phasellus commodo quis eleifend nulla.egestas sollicitudin at
           risus aliquet libero nullam. Lorem nunc eros proin.
         </p>
         <h6>DR. AMUNIKE, ORTHOPAEDIC SURGEON</h6>
