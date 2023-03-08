@@ -1,3 +1,4 @@
+
 import React from 'react'
 import girl from '../assets/Images/intro-patients.png.png'
 
@@ -35,3 +36,5 @@ const Section2 = () => {
 }
 
 export default Section2
+
+

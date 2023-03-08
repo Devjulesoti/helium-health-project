@@ -1,4 +1,5 @@
 import React from 'react'
+
 import first from '../assets/Images/pics1.png'
 import second from '../assets/Images/pics2.png'
 import third from '../assets/Images/pics3.png'
@@ -64,6 +65,7 @@ const Section3 = () => {
             </div>
 
         </div>
+
     </div>
   )
 }
