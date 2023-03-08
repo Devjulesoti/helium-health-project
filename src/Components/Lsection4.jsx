@@ -11,7 +11,7 @@ const Lsection4 = () => {
       <div className="section4-text">
         <p style={{ color: "#454545" }}>
           Lorem ipsum dolor sit amet consectetur. Feugiat pretium libero
-          accumsan congue ullamcorper. Nam massa commodo gravida lectus.
+          accumsan congue ullamcorper. Nam massa cmmodo gravida lectus.
           Phasellus commodo quis eleifend nulla.egestas sollicitudin at
           risus aliquet libero nullam. Lorem nunc eros proin.
         </p>
