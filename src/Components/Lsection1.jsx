@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
-import map from "../images/map@2x.png.png";
-import dropDown from "../images/a.png";
-import "../Styles/Section1.css";
-import Navbar1 from "./Navbar1";
+import map from "../Assets/images/map@2x.png.png";
+import dropDown from "../Assets/images/a.png";
+import "../Styles/Lsection1.css";
+import Navbar1 from "./Lnavbar1";
 
-const Section1 = () => {
+const Lsection1 = () => {
   return (
     <section className="section1">
       <div className="container">
@@ -46,4 +46,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Lsection1;

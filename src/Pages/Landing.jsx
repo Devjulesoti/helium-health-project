@@ -1,30 +1,26 @@
-import React from 'react'
-import Footer from '../Components/Footer'
-import Navbar1 from '../Components/Navbar1'
-import Section1 from '../Components/Section1'
-import Section2 from '../Components/Section2'
-import Section3 from '../Components/Section3'
-import Section4 from '../Components/Section4'
-import Section5 from '../Components/Section5'
-import Section6 from '../Components/Section6'
+import React from "react";
+import Lfooter from "../Components/Lfooter";
+import Lnavbar1 from "../Components/Lnavbar1";
+import Lsection1 from "../Components/Lsection1";
+import Lsection2 from "../Components/Lsection2";
+import Lsection3 from "../Components/Lsection3";
+import Lsection4 from "../Components/Lsection4";
+import Lsection5 from "../Components/Lsection5";
+import Lsection6 from "../Components/Lsection6";
 
 const Landing = () => {
   return (
     <div>
-        <header>
-            {/* <Navbar1/> */}
-        </header>
-        <main>
-            <Section1 />
-            <Section2 />
-            <Section3/>
-            <Section4/>
-            <Section5/>
-            <Section6/>
-            {/* <Footer/> */}
-        </main>
+      <Lnavbar1 />
+      <Lsection1 />
+      <Lsection2 />
+      <Lsection3 />
+      <Lsection4 />
+      <Lsection5 />
+      <Lsection6 />
+      <Lfooter />
     </div>
-  )
-}
+  );
+};
 
-export default Landing
+export default Landing;
